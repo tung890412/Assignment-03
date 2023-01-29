@@ -1,0 +1,81 @@
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .name-li {
+    display: none;
+  }
+  /* banner
+  } */
+  .banner-info li {
+    padding: 5px 5px;
+  }
+
+  .banner-info li a {
+    font-size: 14px;
+  }
+  /* thongtin nghe nghiep */
+
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+  #nghenghiep .grid .p-5 {
+    padding: 2rem !important;
+  }
+  /* chungchi  */
+  .certificate-content {
+    flex-direction: column;
+  }
+  .cc-name {
+    padding-left: 0;
+    padding-top: 32px;
+  }
+  /* can chinh so thich */
+
+  .prj-table {
+    height: 80%;
+  }
+
+  /* du an */
+  .mota-left {
+    min-width: 30%;
+  }
+
+  /*  Digital-cv  */
+
+  .cv-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .goal-content {
+    flex-direction: column;
+  }
+  .goals-icon {
+    text-align: center;
+  }
+  #team li {
+    flex-direction: column;
+  }
+  #team .icon {
+    text-align: center;
+  }
+
+  #primary li {
+    flex-direction: column;
+  }
+  #primary .primary-icon {
+    text-align: center;
+  }
+
+  #scopes ul {
+    flex-direction: column;
+  }
+
+  #timeline li {
+    flex-direction: column;
+  }
+  #timeline .timeline-number {
+    margin-left: 14px;
+  }
+  #timeline .project {
+    margin-top: 8px;
+  }
+}
