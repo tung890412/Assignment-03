@@ -13,6 +13,17 @@
     display: flex;
     flex-direction: column;
   }
+  /* banner */
+  .banner-info ul {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .banner-info li:last-child,
+  .banner-info li:first-child {
+    border-right: none;
+    border-left: none;
+  }
+
   .bd-gold-right {
     border-bottom: 1px solid #d6c08d;
     border-right: none;
