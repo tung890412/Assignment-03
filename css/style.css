@@ -136,7 +136,7 @@ li a {
   gap: 15px;
 }
 .prj-table {
-  height: 56%;
+  min-height: 56%;
 }
 .project-card p {
   margin-bottom: 0 !important;

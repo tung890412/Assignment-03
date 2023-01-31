@@ -1,6 +1,6 @@
 /* Small devices (landscape phones, 576px and up) */
 /*Iphone(480 x 640)*/
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
   .about {
     flex-direction: column;
   }
@@ -17,14 +17,22 @@
     border-bottom: 1px solid #d6c08d;
     border-right: none;
   }
+  /* background banner */
+  .banner-logo {
+    background-position: 50%;
+  }
+  /* chung chi */
   .certificate-content {
     justify-content: center;
     align-items: center;
   }
   .certificate-content img {
-    width: 500px !important;
+    width: 100% !important;
   }
-
+  #chungchi .mobile {
+    display: flex;
+    flex-direction: column;
+  }
   /* project */
   .project {
     display: flex;
@@ -33,6 +41,9 @@
   .project-card .thoigian {
     flex-direction: column;
     align-items: flex-start !important;
+  }
+  #project .section-title {
+    padding: 5px 20px;
   }
   .project-card .thoigian p {
     margin: 5px 0;
