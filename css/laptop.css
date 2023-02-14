@@ -1,0 +1,11 @@
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .banner-info li {
+    padding: 5px 24px;
+  }
+  .p-5 {
+    padding: 1.5rem !important;
+  }
+  .project-card .prj-table {
+    height: 454px;
+  }
+}

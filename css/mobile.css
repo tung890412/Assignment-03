@@ -23,7 +23,9 @@
     border-right: none;
     border-left: none;
   }
-
+  .name-li {
+    display: none;
+  }
   .bd-gold-right {
     border-bottom: 1px solid #d6c08d;
     border-right: none;
@@ -43,6 +45,16 @@
   #chungchi .mobile {
     display: flex;
     flex-direction: column;
+  }
+  #chungchi .row .d-flex {
+    flex-direction: column;
+  }
+  #chungchi .cc-name {
+    padding-left: 0px;
+    padding-top: 24px;
+  }
+  #chungchi .section-title {
+    padding-left: 24px;
   }
   /* project */
   .project {
