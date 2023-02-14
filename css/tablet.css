@@ -5,6 +5,9 @@
   }
   /* banner
   } */
+  .banner-logo {
+    background-position: 50%;
+  }
   .banner-info li {
     padding: 5px 5px;
   }
